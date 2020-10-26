@@ -39,3 +39,4 @@ set5.clear()        # очистка
 print(set5)
 
 
+

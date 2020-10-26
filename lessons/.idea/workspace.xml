@@ -43,10 +43,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.lesson_7_set">
-    <configuration name="lesson_3_For_while" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.lesson_10_files">
+    <configuration name="lesson_10_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -58,7 +59,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_3_For_while.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_6_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_8_def_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -79,7 +80,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6_dict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_8_def_lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_7_set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_9_errors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -100,7 +101,49 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7_set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_9_errors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson_errors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Zver\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_errors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="robo_servo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Zver\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../RoboM/Python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../RoboM/Python/robo_servo3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,9 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lesson_7_set" />
-        <item itemvalue="Python.lesson_6_dict" />
-        <item itemvalue="Python.lesson_3_For_while" />
+        <item itemvalue="Python.lesson_10_files" />
+        <item itemvalue="Python.lesson_9_errors" />
+        <item itemvalue="Python.lesson_errors" />
+        <item itemvalue="Python.lesson_8_def_lambda" />
+        <item itemvalue="Python.robo_servo3" />
       </list>
     </recent_temporary>
   </component>
@@ -141,26 +186,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="189" key="GridCell.Tab.0.bottom" timestamp="1603408268916">
+    <state x="266" y="58" key="#Inspections" timestamp="1603645570120">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1603408268916" />
-    <state width="1259" height="189" key="GridCell.Tab.0.center" timestamp="1603408268915">
+    <state x="266" y="58" key="#Inspections/0.0.1280.760@0.0.1280.760" timestamp="1603645570120" />
+    <state x="398" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603653142431">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1603408268915" />
-    <state width="1259" height="189" key="GridCell.Tab.0.left" timestamp="1603408268915">
+    <state x="398" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.760@0.0.1280.760" timestamp="1603653142431" />
+    <state width="1259" height="182" key="GridCell.Tab.0.bottom" timestamp="1603671439831">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1603408268915" />
-    <state width="1259" height="189" key="GridCell.Tab.0.right" timestamp="1603408268915">
+    <state width="1259" height="182" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1603671439831" />
+    <state width="1259" height="182" key="GridCell.Tab.0.center" timestamp="1603671439831">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1603408268915" />
-    <state x="141" y="25" key="SettingsEditor" timestamp="1603404455876">
+    <state width="1259" height="182" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1603671439831" />
+    <state width="1259" height="182" key="GridCell.Tab.0.left" timestamp="1603671439830">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="141" y="25" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1603404455876" />
+    <state width="1259" height="182" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1603671439830" />
+    <state width="1259" height="182" key="GridCell.Tab.0.right" timestamp="1603671439831">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1259" height="182" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1603671439831" />
+    <state x="141" y="25" key="SettingsEditor" timestamp="1603649375550">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="141" y="25" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1603649375550" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1603670571948">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1603670571948" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -169,6 +226,11 @@
           <url>file://$PROJECT_DIR$/lesson_6_dict.py</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10_files.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
