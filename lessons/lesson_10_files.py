@@ -8,7 +8,7 @@ for line in f:
     print(line)
 f.close()
 
-f = open("text.txt", 'a') # w стирает файл, перезаписывает
+f = open("text.txt", 'a') # a добавляем, w стирает файл, перезаписывает
 f.write("1223458\n")
 f.close()
 
@@ -29,9 +29,10 @@ print(os.path.isfile("text.txt"))
 
 f.close()
 
+# проверка экстренной ошибки и закрытие файла после ошибки
 with open("text1.txt","wt") as f:
     i = int(input())
-    #  rez=str('25/' + str(i) + ' = ' + str(25 / i))
-    #  print(rez)
+    rez=str('25/' + str(i) + ' = ' + str(25 / i))
+    print(rez)
     f.write(str(("25/" + str(i) + " = " + str(25 / i))))
 
