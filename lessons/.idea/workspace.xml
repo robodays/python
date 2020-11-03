@@ -46,28 +46,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
-  <component name="RunManager" selected="Python.lesson_13_decorator">
-    <configuration name="lesson_10_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Zver\PycharmProjects\untitled\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10_files.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.lesson_1_print">
     <configuration name="lesson_11_import_from" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,6 +110,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson_1_print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Zver\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_1_print.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mymodule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson_1_print" />
         <item itemvalue="Python.lesson_13_decorator" />
         <item itemvalue="Python.lesson_12_class" />
         <item itemvalue="Python.lesson_11_import_from" />
         <item itemvalue="Python.mymodule" />
-        <item itemvalue="Python.lesson_10_files" />
       </list>
     </recent_temporary>
   </component>
@@ -194,42 +194,42 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="398" y="250" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.760@0.0.1280.760" timestamp="1603653142431" />
-    <state x="420" y="135" key="FileChooserDialogImpl" timestamp="1603990344647">
+    <state x="420" y="135" key="FileChooserDialogImpl" timestamp="1604357451423">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1603990344647" />
-    <state width="1259" height="182" key="GridCell.Tab.0.bottom" timestamp="1604009958021">
+    <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1604357451423" />
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom" timestamp="1604357560473">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="182" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1604009958021" />
-    <state width="1259" height="182" key="GridCell.Tab.0.center" timestamp="1604009958021">
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1604357560473" />
+    <state width="1237" height="236" key="GridCell.Tab.0.center" timestamp="1604357560473">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="182" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1604009958021" />
-    <state width="1259" height="182" key="GridCell.Tab.0.left" timestamp="1604009958021">
+    <state width="1237" height="236" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1604357560473" />
+    <state width="1237" height="236" key="GridCell.Tab.0.left" timestamp="1604357560473">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="182" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1604009958021" />
-    <state width="1259" height="182" key="GridCell.Tab.0.right" timestamp="1604009958021">
+    <state width="1237" height="236" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1604357560473" />
+    <state width="1237" height="236" key="GridCell.Tab.0.right" timestamp="1604357560473">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="182" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1604009958021" />
-    <state width="1259" height="236" key="GridCell.Tab.1.bottom" timestamp="1603996733972">
+    <state width="1237" height="236" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1604357560473" />
+    <state width="1237" height="236" key="GridCell.Tab.1.bottom" timestamp="1604357560474">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1603996733972" />
-    <state width="1259" height="236" key="GridCell.Tab.1.center" timestamp="1603996733971">
+    <state width="1237" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1604357560474" />
+    <state width="1237" height="236" key="GridCell.Tab.1.center" timestamp="1604357560474">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1603996733971" />
-    <state width="1259" height="236" key="GridCell.Tab.1.left" timestamp="1603996733971">
+    <state width="1237" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1604357560474" />
+    <state width="1237" height="236" key="GridCell.Tab.1.left" timestamp="1604357560474">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1603996733971" />
-    <state width="1259" height="236" key="GridCell.Tab.1.right" timestamp="1603996733972">
+    <state width="1237" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1604357560473" />
+    <state width="1237" height="236" key="GridCell.Tab.1.right" timestamp="1604357560474">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1603996733972" />
+    <state width="1237" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1604357560474" />
     <state x="141" y="25" key="SettingsEditor" timestamp="1603990605374">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

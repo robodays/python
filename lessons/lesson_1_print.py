@@ -21,3 +21,9 @@ res = int(num_1) + num_2
 res += 5
 print("Результат:", res)
 del res     # удаленние из пямяти
+url = "http://www.{}.{}"
+print(url)
+print(url.format("ya","ru"))
+
+
+
