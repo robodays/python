@@ -40,8 +40,8 @@ print(list4[-1::-1])     # item[start:stop:step] реверс
 print("==============================")
 
 # list5[a + b + с for a in 'TEST' for b in 'test' for c in '1234']
-list5=[a + b + c for a in 'TEST' if a != 'T' for b in 'test' if b != 's' for c in '1234' if c != '1']
-tup6=(a + b + c for a in 'TEST' if a != 'T' for b in 'test' if b != 's' for c in '1234' if c != '1')
+list5 = [a + b + c for a in 'TEST' if a != 'T' for b in 'test' if b != 's' for c in '1234' if c != '1']
+tup6 = (a + b + c for a in 'TEST' if a != 'T' for b in 'test' if b != 's' for c in '1234' if c != '1')
 print(list5)
 # print(tup6)
 

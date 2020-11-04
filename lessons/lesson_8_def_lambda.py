@@ -40,10 +40,12 @@ print(func6(2,4,3))
 print("================")
 print(func7('web',34.15,20))
 print(func8(name = 'web', price = 34.15, poin = 20))
+print("================")
 
 rezult2 = lambda x, y : x * y
 func9 = lambda *arguments: arguments
 
+print("================")
 
 print(rezult2(3,4))
 print(rezult2("test ",4))

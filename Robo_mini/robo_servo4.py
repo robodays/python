@@ -20,6 +20,10 @@ class MyServoClass:
     maxi = 600
     col = 0
     row = 0
+    label_wind = []
+    spinbox_wind = []
+    text_wind = []
+
 
     def __init__(self, id_servo, begin_servo=300, mini=100, maxi=600, col=0, row=0):
         self.id = id
@@ -37,7 +41,7 @@ class MyServoClass:
         return Label = Label(window, text="15 <" + str(mid_15) + ">[+-0]", font=("Arial Bold", 16))
     def get_spinbox(self):
         return spin15 = Spinbox(window, from_=min_15, to=max_15, width=5, textvariable=var15, command=click15)
-    def get_grid(self):
+    def get_text(self):
         return text15.grid(column=0, row=3)
         Label = Label(window, text="15 <" + str(mid_15) + ">[+-0]", font=("Arial Bold", 16))
         text15.grid(column=0, row=3)
