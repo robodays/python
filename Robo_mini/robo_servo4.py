@@ -14,39 +14,51 @@ from PIL import Image, ImageTk
 # arduino = serial.Serial('COM4', 9600)
 # time.sleep(2)
 class MyServoClass:
-    id = 0
+    id_servo = 0
     begin_servo = 300
     mini = 100
     maxi = 600
     col = 0
     row = 0
-    label_wind = []
-    spinbox_wind = []
-    text_wind = []
-
+    label_wind = {}
+    spinbox_wind = {}
+    val_var = {}
+    text_wind = {}
 
     def __init__(self, id_servo, begin_servo=300, mini=100, maxi=600, col=0, row=0):
-        self.id = id
+        self.id_servo = id_servo
         self.begin_servo = begin_servo
         self.mini = mini
         self.maxi = maxi
         self.col = col
         self.row = row
 
-    def col_row(self, col = 0, row = 0):
+    def col_row(self, col=0, row=0):
         self.col = col
         self.row = row
 
     def get_label(self):
-        return Label = Label(window, text="15 <" + str(mid_15) + ">[+-0]", font=("Arial Bold", 16))
-    def get_spinbox(self):
-        return spin15 = Spinbox(window, from_=min_15, to=max_15, width=5, textvariable=var15, command=click15)
-    def get_text(self):
-        return text15.grid(column=0, row=3)
-        Label = Label(window, text="15 <" + str(mid_15) + ">[+-0]", font=("Arial Bold", 16))
-        text15.grid(column=0, row=3)
-        spin15 = Spinbox(window, from_=min_15, to=max_15, width=5, textvariable=var15, command=click15)
-        spin15.grid(column=1, row=3)
+        self.label_wind[self.id_servo] = Label(window,
+                                               text=str(self.id_servo) + " <" + str(self.begin_servo) + ">[+-0]",
+                                               font=("Arial Bold", 16))
+        text15.grid(column=0 if self.col == 0 else 3, row=self.row)
+        self.val_var[self.id_servo] = IntVar()
+        self.spinbox_wind[self.id_servo] = Spinbox(window, from_=self.mini, to=self.maxi, width=5,
+                                                   textvariable=self.val_var[self.id_servo], command=self.get_click())
+        self.val_var[self.id_servo](self.begin_servo)
+        spin15.grid(column=1 if self.col == 0 else 4, row=self.row)
+         # #         textvariable=self.ttt.difficulty, command=lambda: self.reset())
+
+
+    def get_click(self):
+        # global seconds_old, cl_1, plm_1, mid_1
+        send = str('1,' + format(self.spinbox_wind[self.id_servo].get()))
+        delt = int(format(self.spinbox_wind[self.id_servo].get())) - self.begin_servo
+        text1['text'] = "1 <" + str(self.begin_servo) + ">[" + str(delt) + "]"
+        if (seconds_old + 0.5) <= time.time():
+            arduino.write(send.encode())
+            seconds_old = time.time()
+
 
 servo_list = [MyServoClass(0, 386, 290, 586, 0, 14),  # 1
               MyServoClass(1, 366, 172, 460, 1, 14),  # 2
@@ -175,6 +187,8 @@ max_17 = 615
 mid_17 = 300
 
 '''
+
+
 def uno_click():
     # global seconds_old, cl_1, plm_1, mid_1
     cl_1 = str('1,' + format(spin1.get()))
@@ -183,6 +197,7 @@ def uno_click():
     if (seconds_old + 0.5) <= time.time():
         arduino.write(cl_1.encode())
         seconds_old = time.time()
+
 
 def click1():
     global seconds_old, cl_1, plm_1, mid_1
@@ -438,8 +453,6 @@ c = Canvas(window, width=350, height=700, bg='white')
 tree1 = PhotoImage(file="images/robo3.png")
 image1 = c.create_image(180, 314, image=tree1)
 c.grid(column=2, row=1, rowspan=16)
-
-
 
 # Форма
 #

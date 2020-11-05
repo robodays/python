@@ -43,7 +43,10 @@ print(func8(name = 'web', price = 34.15, poin = 20))
 print("================")
 
 rezult2 = lambda x, y : x * y
+print(rezult2(10, 11))
 func9 = lambda *arguments: arguments
+print(func9("test1", "test2"))
+
 
 print("================")
 

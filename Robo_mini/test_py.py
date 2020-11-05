@@ -15,6 +15,5 @@ list1[0] = 10
 list1[8] = 80
 list1[5] = 50
 print(list1)
-list1.sort()
-print(list1)
+
 
