@@ -1,6 +1,6 @@
 import serial
 import time
-import pygame
+#import pygame
 
 from tkinter import *
 from tkinter.ttk import Combobox
