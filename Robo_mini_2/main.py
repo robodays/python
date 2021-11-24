@@ -5,8 +5,8 @@ import serial  # Для подключению к портам ардуино
 import time
 from tkinter import *
 
-# arduino = serial.Serial('COM4', 9600)
-# time.sleep(2)
+arduino = serial.Serial('COM5', 9600)
+time.sleep(2)
 class MyServoClass:
     """ Класс вывода повторяющихся данных
     id_servo    - id сервопривода
@@ -61,16 +61,33 @@ class MyServoClass:
             delt) + "]"
         if (self.timestamp + 0.5) <= time.time():
             # отправка на Ардуино
-            #            arduino.write(send.encode())
+            arduino.write(send.encode())
             self.timestamp = time.time()
 
     def send_arduino(self):
         """быстрая отправка на ардуино"""
         send = str(self.id_servo) + "," + str(self.begin_servo)
-#       arduino.write(send.encode())
+        arduino.write(send.encode())
         time.sleep(0.1)
 
+def click_button1():
+    #window.title("button2 {}".format("clicks"))
+    text_box = Text(width=45, height=20)
+    text_box.grid(column=5, row=1, rowspan=16)
 
+    text_box.insert(END, "// For Arduino\n")
+    for key in range(len(servo_list)):
+        delt = int(format(servo_list[key].spinbox_wind[servo_list[key].id_servo].get())) - servo_list[key].begin_servo
+        text_box.insert(END, "serv_obj[" + str(key) + "].setSlowServo(" + str(delt) + ", 1, delays);\n")
+
+def click_button2(): #TODO
+    for key in range(len(servo_list)):
+        servo_list[key].label_wind[key]['text'] = str(key) + " <" + str(servo_list[key].begin_servo) + ">[" + \
+                                                  str(0) + "]"
+        servo_list[key].spinbox_wind[key]['text'] = str(servo_list[key].begin_servo)
+        send = str(servo_list[key].id_servo) + "," + str(servo_list[key].spinbox_wind[servo_list[key].id_servo].get())
+        arduino.write(send.encode())
+        time.sleep(0.2)
 
 servo_list = [MyServoClass(0, 386, 290, 586, 0, 14),  # 1
               MyServoClass(1, 366, 172, 460, 1, 14),  # 2
@@ -90,29 +107,13 @@ servo_list = [MyServoClass(0, 386, 290, 586, 0, 14),  # 1
               MyServoClass(15, 406, 130, 615, 1, 3),  # 16 ....
               MyServoClass(16, 300, 130, 615, 1, 0)]  # 17 ....
 
-def click_button1():
-    window.title("button2 {}".format("clicks"))
-    text_box = Text(width=45, height=20)
-    text_box.grid(column=5, row=1, rowspan=16)
 
-    text_box.insert(END, "// For Arduino\n")
-    for key in range(len(servo_list)):
-        delt = int(format(servo_list[key].spinbox_wind[servo_list[key].id_servo].get())) - servo_list[key].begin_servo
-        text_box.insert(END, "serv_obj[" + str(key) + "].setSlowServo(" + str(delt) + ", 1, delays);\n")
-
-def click_button2(): #TODO
-    for key in range(len(servo_list)):
-        servo_list[key].label_wind[key]['text'] = str(key) + " <" + str(servo_list[key].begin_servo) + ">[" + \
-                                                  str(0) + "]"
-        servo_list[key].spinbox_wind[key]['text'] = str(servo_list[key].begin_servo)
-        send = str(servo_list[key].id_servo) + "," + str(servo_list[key].spinbox_wind[servo_list[key].id_servo].get())
-#       arduino.write(send.encode())
 
 # Запуск окна
 window = Tk()
 window.title("Управление SERVO 17 DOF для Ардуино")
 c = Canvas(window, width=350, height=700, bg='white')
-tree1 = PhotoImage(file="images/robo3.png")
+tree1 = PhotoImage(file="images/robo4.png")
 image1 = c.create_image(180, 314, image=tree1)
 c.grid(column=2, row=1, rowspan=16)
 
@@ -126,23 +127,8 @@ gen_code.grid(column=0, row=0)
 servo_start = Button(text="Start Servo", command=click_button2)
 servo_start.grid(column=2, row=0)
 
-#text_box = Text(width=45, height=16, )
-#text_box.grid(column=5, row=1, rowspan=20)
-'''
-text_box.insert("1.0", "test1\n")
-text_box.insert("2.2", "test2\n")
-text_box.insert("3.3", "test3\n")
-text_box.insert("4.5", "test4\n")
-'''
-
 window.mainloop()
 
-
-'''
-window.bind('<Button-1>', butt)
-window.bind('<Key>', butt)
-# window.bind('<KeyRelease>', butt_sleep)
-'''
 
 
 
